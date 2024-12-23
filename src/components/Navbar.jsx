@@ -22,17 +22,17 @@ const Navbar = () => {
     border-b
     border-neutral-700/80">
 
-        <div className=" container px-4 mx-auto relative text-sm">
+        <div className=" container px-4 mx-auto relative text-sm max-w-4xl ">
 
         <div className="flex justify-between items-center">
 
-        <div className="flex items-center flex-shrink-0">
+        <div className="flex justify-between items-center flex-shrink-0">
 
         <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
         <span className="text-xl tracking-right"> jpg </span>
         <div>
             <ul
-            className="hidden lg:flex ml-14 space-x-12">
+            className="hidden lg:flex ml-20 space-x-12">
                 {navItems.map((item, index) => (
                 <li key={index}>
                     <a href={item.href}>{item.label} </a>
@@ -41,13 +41,11 @@ const Navbar = () => {
             </ul>
             </div>
 
-            <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md"> 
-            Log in
-            </a>
+            <div className="hidden lg:flex justify-center space-x-12 ml-20">
+            
 
-            <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 rounded-md">
-            Register
+            <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 rounded-md ">
+            Download
             </a>
 
             </div>

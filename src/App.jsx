@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 
+
 const App = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const App = () => {
 
     </>
   )
+  
 }
 
 export default App

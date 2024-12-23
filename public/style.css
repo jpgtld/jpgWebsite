@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "Poppins" , "Sans-serif";
+    
+    background-color: black;
+  }
+
+  nav {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: rgb(22, 22, 22);
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    text-decoration: none;
+    color: white;
+    
+    
+    
+  }
+
+  .logoText {
+    font-size: 42px;
+    font-weight: 500;
+  }
+
+  .buttonContainer {
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+ color: white;
+  }
+
+  .appbutton {
+     width: 45%;
+     max-width: 160px;
+     color: #fff;
+     
+     text-align: left;
+     border-radius: 5px;
+     text-decoration: none;
+     font-family: "Lucida Grande", sans-serif;
+     font-size: 10px;
+     text-transform: uppercase;
+      background-color: #101010;
+      transition: background-color 0.25s linear;
+      &:hover {
+       background-color: #0239A0;
+      
+     }
+     i {
+      width: 20%;
+      text-align: center;
+      font-size: 28px;
+      margin-right: 7px;
+     }
+     .big-txt {
+      font-size: 17px;
+      text-transform: capitalize;
+     
+    }
+   }
+
+  
+
+ 
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+   
+    color: white;
+    
+  }
+
+  .appvideo {
+   
+    border-radius: 100px;
+  }
+
+  .columnRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .columnLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+  }
+
+  .cloumnLeftLargeText {
+    font-size: 42px;
+
+    font-weight: 600;
+
+  }
+
+  .appImage {
+    width: 50%;
+    border-style: solid;
+    border-color: rgb(22, 22, 22);
+    border-radius: 20px;
+  }
+
+  .termsContainer {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    
+  }
+
+  .pTitle {
+    font-size: xx-large;
+  }
+
+  .pDate {
+    font-size: small;
+  }
+
+  .pHeader {
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  .pContainer {
+    padding-top: 50px;
+  }
+
+  .pBullet {
+    padding: 5px;
+  }
+
+
+  footer {
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(22, 22, 22);
+    border-width: 1px;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: small;
+    
+  }
+
+  .footerText {
+
+    text-decoration: none;
+    color: white;
+  }
+
+  @media (max-width: 600px) {
+
+    nav {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+        border-style: solid;
+        border-color: rgb(22, 22, 22);
+        border-width: 1px;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        text-decoration: none;
+        
+      }
+
+      .logoContainer {
+        display: list-item;
+        padding-left: 10px;
+      }
+
+      .logo {
+        width: 15%;
+        border-radius: 10px;
+    
+      }
+    
+    .hero {
+        padding: 10px;
+        display: list-item;
+        align-items: center;
+        
+      }
+
+      .columnRight {
+        padding: 10px;
+        width: 100%;
+      }
+
+      .appImage {
+        width: 80%;
+        border-style: solid;
+        border-color: rgb(22, 22, 22);
+        border-radius: 20px;
+      }
+    
+      .columnLeft {
+        width: 100%;
+        
+      }
+    
+      .cloumnLeftLargeText {
+        font-size: xx-large;
+    
+        font-weight: 600;
+    
+      }
+
+      .termsContainer {
+        padding: 10px;
+        
+      }
+    
+      .pTitle {
+        font-size: xx-large;
+      }
+    
+      .pDate {
+        font-size: small;
+      }
+    
+      .pHeader {
+        font-size: large;
+        font-weight: 600;
+      }
+      
+      .pContainer {
+        padding-top: 50px;
+      }
+    
+      .pBullet {
+        padding: 5px;
+      }
+
+
+  }
+
